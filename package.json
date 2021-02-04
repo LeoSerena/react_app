@@ -1,0 +1,22 @@
+{
+  "name": "react_app",
+  "version": "1.0.0",
+  "description": "test to run react",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx babel --watch src --out-dir util --presets react-app/prod & nodemon app.js"
+  },
+  "author": "Leo",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  },
+  "keywords": []
+}
